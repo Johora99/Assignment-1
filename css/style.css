@@ -7,6 +7,9 @@
 }
 
 /* common style stat */
+.general-width{
+    width: 1140px;
+}
 
 p{
     color: rgb(13, 19, 33);
@@ -145,7 +148,6 @@ main{
  
 }
 main .changing{
-     width: 1140px;
     margin: 80px auto ;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -170,13 +172,17 @@ main .sub-main-section .coding{
 }
 
 main .inspiraing{
-     width: 1140px;
+    
      margin: auto;
 
 }
- 
+ main .inspiraing .video-section{
+    display: flex;
+    justify-content: center;
+ }
 
 main .inspiraing .video{
+  width: 1076px;
   display: flex;
   justify-content: center;
   margin: 50px;
@@ -186,7 +192,40 @@ main .inspiraing .video{
 
 }
 main .inspiraing .video-pay{
+    
     border-radius: 16px;
+}
+main .skill-learn-section{
+    margin: 150px auto;
+}
+
+main .skill-learn-section .skill-learn{
+    display: flex;
+    justify-content: center;
+    
+}
+main .skill-learn .skills-name{
+   display: flex;
+   margin-top: 50px;
+   gap: 30px;
+}
+main .skills-name .html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+main .skills-name .html-title{
+    margin-top: 30px;
+}
+main .skills-name .css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+main .skills-name .js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
 }
 
 
