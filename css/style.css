@@ -18,6 +18,8 @@ p{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    opacity: 0.7;
+
 }
 .text-center{
    text-align: center;
@@ -266,3 +268,118 @@ main .advance-section .advance-sector .next-targets .img-position{
 
 /* main section end */
 
+/* footer section start */
+footer .footer-banner{
+    width: 1140px;
+    margin: auto;
+    border-radius: 16px;
+    background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    padding: 64px;
+    margin-bottom: 100px;
+}
+footer .footer-content .footer-heading{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+footer .footer-content .support-msg{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 16px auto 30px;
+
+}
+footer .footer-content .support-form{
+   text-align: center;
+  
+}
+
+input[type=text]{
+    width: 548px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px;
+}
+input[type=submit]{
+      padding: 15px 20px;
+      border-radius: 8px;
+      background: rgb(255, 255, 255);
+      color: rgb(13, 19, 33);
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 23px;
+      letter-spacing: 0%;
+      text-align: center;
+      border: none;
+}
+input[type=text]::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;    
+    letter-spacing: 0%;
+}
+footer .commitment{
+    
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+}
+footer .social-media-section{
+    width: 1140px;
+    height: 100px;
+   border-radius: 16px;
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+   
+}
+footer .social-media-section .commit{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+   
+}
+footer .social-media-section .soci-icon{
+    display: flex;
+}
+footer .soci-icon .items{
+    list-style-type: none;
+    margin-left: 20px;
+}
+footer .soci-icon .icon{
+    font-size: 30px;
+   
+}
+footer .soci-icon .fa-facebook{
+    color: rgb(0, 128, 255);
+}
+footer .soci-icon .fa-github{
+    color: rgb(0, 0, 0);
+}
+footer .soci-icon .fa-linkedin{
+    color: #0D7AB6;
+}
+
+
+
+
+
+/* footer section end */
