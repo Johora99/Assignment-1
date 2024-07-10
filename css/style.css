@@ -227,11 +227,42 @@ main .skills-name .js{
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
 }
+.leart-more{
+   color: rgb(13, 19, 33);
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 19px;
+   letter-spacing: 0%;
+   text-align: left;
+   text-decoration-line: underline;
+}
+main .advance-sector{
+    margin: 50px auto;
+}
+main .advance-section{
+    width: 1140px;
+    margin: auto;
+}
 
+main .advance-section .advance-sector .next-targets{
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin-bottom: 20px;
+  
 
-
-
+}
+main .advance-section .advance-sector .next-targets .img-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
 /* main section end */
+
